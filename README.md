@@ -6,3 +6,4 @@ Based on code from: https://github.com/sosolimited/Cinder-DMX/tree/master/src/sA
 ## Issues:
 - Multicast only on 239.255.0.1
 - No receiving
+- No unicast
