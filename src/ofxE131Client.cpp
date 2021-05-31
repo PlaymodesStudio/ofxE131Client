@@ -58,8 +58,8 @@ void ofxE131Client::setChannels(int startChannel, u_char* values, size_t size, i
 
         // Create packet
         UniverseData data = UniverseData{
-            .universeSequenceNum = char(0),
-            .payload = emptyPayload
+            char(0),
+            emptyPayload
         };
 
         universePackets[universe] = data;
